@@ -1,11 +1,11 @@
-package ru.vsu.num8;
+/*package ru.vsu.num8;
 
-public class Picture {
+public class Pict {
     private Square square;
     private Lines line1;
     private Lines line2;
 
-    public Picture(Square square, Lines line1, Lines line2) {
+    public Pict(Square square, Lines line1, Lines line2) {
         this.square = square;
         this.line1 = line1;
         this.line2 = line2;
@@ -36,3 +36,4 @@ public class Picture {
         return (line1.isPointInsideArea(x, y) && !square.isPointInsideSquare(x, y));
     }
 }
+*/

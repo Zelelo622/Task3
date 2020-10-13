@@ -9,7 +9,7 @@ public class Lines {
         this.b = b;
     }
 
-    public boolean isPointAboveLine(double x, double y) {
+    public boolean isPointInsideArea(double x, double y) {
         return y > k * x + b;
     }
 }
