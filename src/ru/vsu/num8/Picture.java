@@ -25,14 +25,14 @@ public class Picture {
     }
 
     boolean isColorOrange(double x, double y) {
-        return (line1.isPointInsideArea(x, y) && square.isPointInsideSquare(x, y) || !line1.isPointInsideArea(x, y) && square.isPointInsideSquare(x, y));
+        return (square.isPointInsideSquare(x, y));
     }
 
     boolean isColorWhite(double x, double y) {
-        return (line2.isPointInsideArea(x, y) && !line1.isPointInsideArea(x, y) && !square.isPointInsideSquare(x, y));
+        return (line2.isPointInsideArea(x, y) && !line1.isPointInsideArea(x, y));
     }
 
     boolean isColorYellow(double x, double y) {
-        return (line1.isPointInsideArea(x, y) && !square.isPointInsideSquare(x, y));
+        return (line1.isPointInsideArea(x, y));
     }
 }
