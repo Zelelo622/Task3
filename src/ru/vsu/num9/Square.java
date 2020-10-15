@@ -1,4 +1,4 @@
-package ru.vsu.num8;
+package ru.vsu.num9;
 
 public class Square {
     public boolean isPointInsideSquare(double x, double y) {

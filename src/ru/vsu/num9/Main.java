@@ -1,4 +1,4 @@
-package ru.vsu.num8;
+package ru.vsu.num9;
 
 import java.util.Scanner;
 
